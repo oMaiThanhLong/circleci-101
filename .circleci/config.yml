@@ -8,8 +8,6 @@ jobs:
       - run: echo "Hello worl"
       - run: sleep 25
   two:
-    docker:
-      - iamge: circleci/python:3.7.1
     steps:
       - checkout
       - run: echo "Hello world"
