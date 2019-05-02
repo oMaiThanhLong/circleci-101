@@ -6,3 +6,9 @@ jobs:
     steps:
       - checkout
       - run: echo "Hello worl"
+  build:
+    docker:
+      - iamge: circleci/python:3.7.1
+    steps:
+      - checkout
+      - run: echo "Hello world"
