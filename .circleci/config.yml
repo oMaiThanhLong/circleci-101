@@ -13,7 +13,7 @@ jobs:
     steps:
       - checkout
       - run: echo "Hello world"
-      - run:sleep 15
+      - run: sleep 15
 workflows:
     version: 2
     one_and_two:
